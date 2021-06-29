@@ -51,13 +51,13 @@ public class Labyrinte {
 
     @Override
     public String toString() {
-        String res = "";
+        StringBuilder res = new StringBuilder();
         for (Case[] l : laby) {
             for (Case c : l) {
-                res += "| " + c.toString() + " ";
+                res.append("| ").append(c.toString()).append(" ");
             }
-            res += "|\n";
+            res.append("|\n");
         }
-        return res;
+        return res.toString();
     }
 }
