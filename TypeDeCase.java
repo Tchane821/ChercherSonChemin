@@ -1,9 +1,9 @@
-public enum typeDeCase {
-    MURE("X"),VIDE("o");
+public enum TypeDeCase {
+    MURE("X"),VIDE("O"),VUE("."),POS("/");
 
     private String strValue;
 
-    typeDeCase(String strValue) {
+    TypeDeCase(String strValue) {
         this.strValue = strValue;
     }
 

@@ -1,8 +1,8 @@
 public class Case {
 
-    public typeDeCase typeDeCase;
+    public TypeDeCase typeDeCase;
 
-    public Case(typeDeCase typeDeCase) {
+    public Case(TypeDeCase typeDeCase) {
         this.typeDeCase = typeDeCase;
     }
 
